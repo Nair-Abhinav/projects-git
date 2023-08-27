@@ -1,0 +1,247 @@
+p {
+    font-family: Noto Sans;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #4018b2;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.head_logo {
+    flex: 1;
+}
+.head_text {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.logo {
+    width: 140px;
+    margin-left: 100px;
+    vertical-align: center;
+}
+
+.text {
+    font-size: 20px;
+    font-family: Noto Sans;
+    text-decoration: none;
+    color: #cccccc;
+    margin-right: 20px;
+}
+.contact-us{
+    color: white;
+}
+.page1-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4018b2;
+}
+
+.para-1 {
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 130px;
+    color: white;
+    width: 500px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.para-2 {
+    display: block;
+    font-size: 20px;
+    width: 540px;
+    font-weight: 300;
+    margin-top: 30px;
+    line-height: normal;
+}
+
+.phone-1 {
+    height: 600px;
+    margin-bottom: 0px;
+    padding-top: 70px;
+}
+
+.features-text {
+    color: #212529;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: white;
+}
+
+.page2-content {
+    background-color: white;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    flex: 1;
+    text-align: right;
+    vertical-align: center;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    flex: 1;
+    text-align: right;
+    vertical-align: center;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    flex: 1;
+    text-align: left;
+    vertical-align: center;
+}
+
+.column_group1 {
+    display: flex;
+    justify-content: right;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    > p {
+        width: 300px;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: 600;
+
+        >span {
+            display: block;
+            font-size: 15px;
+            font-weight: 300;
+        }
+    }
+
+    > img {
+        object-fit: contain;
+    }
+}
+
+.column_group3 {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    > p {
+        width: 320px;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: 600;
+
+        >span {
+            display: block;
+            font-size: 15px;
+            font-weight: 300;
+        }
+    }
+
+    > img {
+        object-fit: contain;
+    }
+}
+
+.reviews-head {
+    color: #212529;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+    >.r {
+        flex:1;
+        text-align: center;
+
+
+        >.star {
+            margin-top: 0px;
+            width: 150px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        >.name {
+            text-align: center;
+            font-weight: 700 ;
+        }
+
+        >p {
+            width: 300px;
+            margin: auto;
+            text-align: left;
+            color: #212529;
+
+            >span {
+                display: block;
+                font-weight: 300;
+                font-size: 15px;
+            }  
+        }
+
+        >.desc {
+            font-weight: 300;
+            font-size: 15px;
+            width: 325px;
+        } 
+    }
+}
+
+.footer {
+    background-color: #4018b2;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    >p {
+        font-size: 45px;
+        font-weight: 700;    
+    }
+
+    >div {
+        display: inline-block;
+        margin-left: 75px;
+        margin-right: 75px;
+
+        >.contact {
+            display: inline-block;
+            vertical-align: middle;
+            margin-bottom: 35px;
+            margin-left: 5px;
+        }
+    }  
+}
+
