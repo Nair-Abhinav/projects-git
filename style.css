@@ -1,3 +1,6 @@
+html{
+    font-size: 62.5%;
+}
 p {
     font-family: Noto Sans;
 }
@@ -8,8 +11,8 @@ p {
     background-color: #4018b2;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2.0rem;
+    padding-bottom: 2.0rem;
 }
 .head_logo {
     flex: 1;
@@ -19,20 +22,20 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 100px;
+    margin-right: 10.0rem;
 }
 .logo {
-    width: 120px;
-    margin-left: 100px;
+    width: 14.0rem;
+    margin-left: 10.0rem;
     vertical-align: center;
 }
 
 .text {
-    font-size: 17px;
+    font-size: 1.6rem;
     font-family: Noto Sans;
     text-decoration: none;
     color: #cccccc;
-    margin-right: 4px;
+    margin-right: .4rem;
 }
 .contact-us{
     color: white;
@@ -45,50 +48,50 @@ p {
 }
 
 .para-1 {
-    font-size: 37px;
-    margin-left: 100px;
-    margin-top: 70px;
+    font-size: 3.7rem;
+    margin-left: 10.0rem;
+    margin-top: 7.0rem;
     color: white;
-    width: 500px;
+    width: 50.0rem;
     font-weight: 650;
-    line-height: 65px;
+    line-height: 6.5rem;
 }
 
 .para-2 {
     display: block;
-    font-size: 20px;
-    width: 540px;
+    font-size: 1.4rem;
+    width: 48.0rem;
     font-weight: 300;
-    margin-top: 30px;
+    margin-top: 3.0rem;
     line-height: normal;
 }
 
 .phone-1 {
-    height: 550px;
-    margin-bottom: 0px;
-    padding-top: 70px;
+    height:50.50rem;
+    margin-bottom: 0rem;
+    padding-top: 7.0rem;
 }
 
 .features-text {
     color: #212529;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 40px;
-    margin: 0px;
-    font-size: 50px;
+    padding-top: 10.0rem;
+    padding-bottom: 4.0rem;
+    margin: 0rem;
+    font-size: 5.0rem;
     font-weight: 700;
     background-color: white;
 }
 
 .page2-content {
     background-color: white;
-    margin-top: 0px;
-    margin-right: 10px;
+    margin-top: 0rem;
+    margin-right: 1.0rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 10.0rem;
 }
 
 .column1 {
@@ -121,19 +124,19 @@ p {
 .column_group1 {
     display: flex;
     justify-content: right;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10.0rem;
+    margin-right: 10.0rem;
 
     > p {
-        width: 250px;
-        margin-right: 10px;
-        margin-left: 10px;
-        font-size: 20px;
+        width: 25.0rem;
+        margin-right: 1.0rem;
+        margin-left: 1.0rem;
+        font-size: 2.0rem;
         font-weight: 600;
 
         >span {
             display: block;
-            font-size: 15px;
+            font-size: 1.5rem;
             font-weight: 300;
         }
     }
@@ -146,19 +149,19 @@ p {
 .column_group3 {
     display: flex;
     justify-content: left;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10.0rem;
+    margin-right: 10.0rem;
 
     > p {
-        width: 250px;
-        margin-right: 15px;
-        margin-left: 10px;
-        font-size: 20px;
+        width: 25.0rem;
+        margin-right: 1.5rem;
+        margin-left: 1.0rem;
+        font-size: 2.0rem;
         font-weight: 600;
 
         >span {
             display: block;
-            font-size: 15px;
+            font-size: 1.5rem;
             font-weight: 300;
         }
     }
@@ -170,17 +173,17 @@ p {
 
 .reviews-head {
     color: #212529;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 900;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 3.0rem;
 }
 
 .reviews {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 10.0rem;
     
     >.r {
         flex:1;
@@ -188,10 +191,10 @@ p {
 
 
         >.star {
-            margin-top: 0px;
-            width: 150px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            margin-top: 0rem;
+            width: 15.0rem;
+            margin-top: 1.0rem;
+            margin-bottom: 1.0rem;
         }
 
         >.name {
@@ -200,7 +203,7 @@ p {
         }
 
         >p {
-            width: 300px;
+            width: 30.0rem;
             margin: auto;
             text-align: left;
             color: #212529;
@@ -208,14 +211,14 @@ p {
             >span {
                 display: block;
                 font-weight: 300;
-                font-size: 15px;
+                font-size: 1.5rem;
             }  
         }
 
         >.desc {
             font-weight: 300;
-            font-size: 15px;
-            width: 325px;
+            font-size: 1.5rem;
+            width: 32.5rem;
         } 
     }
 }
@@ -224,25 +227,40 @@ p {
     background-color: #4018b2;
     color: white;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 10.0rem;
+    padding-bottom: 5.0rem;
 
     >p {
-        font-size: 45px;
+        font-size: 3.5rem;
         font-weight: 700;    
     }
 
     >div {
         display: inline-block;
-        margin-left: 75px;
-        margin-right: 75px;
+        margin-left: 7.5rem;
+        margin-right: 7.5rem;
 
         >.contact {
+            font-size: 1rem;
             display: inline-block;
             vertical-align: middle;
-            margin-bottom: 35px;
-            margin-left: 5px;
+            margin-bottom: 3.5rem;
+            margin-left: .5rem;
         }
     }  
 }
-
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:350px){
+    html{
+        font-size: 10%;
+    }
+}
