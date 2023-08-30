@@ -1,3 +1,6 @@
+body{
+    /* overflow-y: hidden; */
+}
 html{
     font-size: 62.5%;
 }
@@ -78,20 +81,37 @@ p {
     padding-top: 10.0rem;
     padding-bottom: 4.0rem;
     margin: 0rem;
-    font-size: 5.0rem;
+    font-size: 4.0rem;
     font-weight: 700;
     background-color: white;
 }
 
+
 .page2-content {
     background-color: white;
-    margin-top: 0rem;
-    margin-right: 1.0rem;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10.0rem;
+    padding-bottom: 100px;
+
+     @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+
+        .p1 {
+            margin: 20px;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .img_body1 {
+            height: auto;
+            width: 80%;
+            padding-top: 20px;
+        }
+    }
 }
 
 .column1 {
@@ -103,7 +123,7 @@ p {
     vertical-align: center;
 }
 
-.column1{
+.column2 {
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -124,19 +144,19 @@ p {
 .column_group1 {
     display: flex;
     justify-content: right;
-    margin-left: 10.0rem;
-    margin-right: 10.0rem;
+    margin-left: 100px;
+    margin-right: 100px;
 
     > p {
-        width: 25.0rem;
-        margin-right: 1.0rem;
-        margin-left: 1.0rem;
-        font-size: 2.0rem;
+        width: 300px;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 20px;
         font-weight: 600;
 
         >span {
             display: block;
-            font-size: 1.5rem;
+            font-size: 15px;
             font-weight: 300;
         }
     }
@@ -149,19 +169,19 @@ p {
 .column_group3 {
     display: flex;
     justify-content: left;
-    margin-left: 10.0rem;
-    margin-right: 10.0rem;
+    margin-left: 100px;
+    margin-right: 100px;
 
     > p {
-        width: 25.0rem;
-        margin-right: 1.5rem;
-        margin-left: 1.0rem;
-        font-size: 2.0rem;
+        width: 320px;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 20px;
         font-weight: 600;
 
         >span {
             display: block;
-            font-size: 1.5rem;
+            font-size: 15px;
             font-weight: 300;
         }
     }
@@ -185,6 +205,15 @@ p {
     justify-content: space-between;
     margin-bottom: 10.0rem;
     
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+
+        .r {
+            margin: 20px;
+            text-align: center;
+        }
+    }
     >.r {
         flex:1;
         text-align: center;
@@ -229,6 +258,13 @@ p {
     text-align: center;
     padding-top: 10.0rem;
     padding-bottom: 5.0rem;
+    @media (max-width: 768px) {
+        text-align: center;
+
+        div {
+            margin: 20px;
+        }
+    }
 
     >p {
         font-size: 3.5rem;
