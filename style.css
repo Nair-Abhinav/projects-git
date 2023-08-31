@@ -10,6 +10,7 @@
 } */
 body{
     margin: 0rem;
+    padding: 0rem;
 }
 html{
     font-size: 62.5%;
@@ -27,6 +28,15 @@ p {
     align-items: center;
     padding-top: 2.0rem;
     padding-bottom: 2.0rem;
+    height: 100%;
+    @media(max-width: 768px){
+        flex-direction: column;
+        align-items: center;
+        .text{
+            width: auto;
+            margin-right: 1rem;
+        }
+    }
 }
 .head_logo {
     flex: 1;
@@ -37,6 +47,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     margin-right: 10.0rem;
+   
 }
 .logo {
     width: 14.0rem;
@@ -49,12 +60,13 @@ p {
     font-family: Noto Sans;
     text-decoration: none;
     color: #cccccc;
-    margin-right: .4rem;
+    margin-right: .6rem;
 }
 .contact-us{
     color: white;
 }
 .page1-content {
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -71,8 +83,8 @@ p {
         }
 
         .phone-1 {
-            height: auto;
-            width: 80%;
+            height: 50%;
+            width: 50%;
             padding-top: 20px;
         }
     }
