@@ -8,9 +8,12 @@
     overflow-x: hidden;
     margin: 0;
 } */
+body{
+    margin: 0rem;
+}
 html{
     font-size: 62.5%;
-    margin: 0rem;
+    
 }
 p {
     font-family: 'Noto Sans';
