@@ -1,11 +1,19 @@
-body{
-    /* overflow-y: hidden; */
-}
+/* body::-webkit-scrollbar{
+    display: none;
+} */
+
+/* body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    margin: 0;
+} */
 html{
     font-size: 62.5%;
+    margin: 0rem;
 }
 p {
-    font-family: Noto Sans;
+    font-family: 'Noto Sans';
 }
 
 .header {
@@ -48,6 +56,23 @@ p {
     flex-direction: row;
     justify-content: space-between;
     background-color: #4018b2;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+
+        .para-1 {
+            margin: 20px;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .phone-1 {
+            height: auto;
+            width: 80%;
+            padding-top: 20px;
+        }
+    }
 }
 
 .para-1 {
@@ -74,6 +99,40 @@ p {
     margin-bottom: 0rem;
     padding-top: 7.0rem;
 }
+@media (max-width: 768px) {
+    .header {
+        margin: 1.0rem 0rem 1.0rem 0rem;
+        flex-direction: column;
+        text-align: center;
+        padding: 1.0rem;
+    }
+    .body1{
+        flex-direction: column;
+        align-items: center;
+        .p1 {
+            margin: 2.0rem;
+            font-size: 3.6rem;
+            text-align: center;
+        }
+        .img_body1 {
+            height: auto;
+            width: 80%;
+            padding-top: 2.0rem;
+        }
+    }
+    .para-1{font-size:5.0rem}
+    .head_logo {margin: 1.0rem 0 1.0rem 0}
+    .head_text {margin: 2.0rem 0}
+    .logo {margin: 1.0rem 0 1.0rem 0}
+    .text {margin: 1.0rem 0 1.0rem 0}
+    .column_group1{margin: 1.0rem 0 1.0rem 0}
+    .column1{margin: 1.0rem 0 1.0rem 0}
+    .column2{margin: 1.0rem 0 1.0rem 0}
+    .column3{margin: 1.0rem 0 1.0rem 0}
+    .reviews_head{margin: 1.0rem 0 1.0rem 0}
+    .reviews{margin: 1.0rem 0 1.0rem 0}
+    .footer{margin: 0}
+}
 
 .features-text {
     color: #212529;
@@ -89,27 +148,27 @@ p {
 
 .page2-content {
     background-color: white;
-    margin-top: 0px;
+    margin-top: 0rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 10.0rem;
 
-     @media (max-width: 768px) {
+    @media (max-width: 768px) {
         flex-direction: column;
         align-items: center;
 
         .p1 {
-            margin: 20px;
-            font-size: 36px;
+            margin: 2.0rem;
+            font-size: 3.6rem;
             text-align: center;
         }
 
         .img_body1 {
             height: auto;
             width: 80%;
-            padding-top: 20px;
+            padding-top: 2.0rem;
         }
     }
 }
@@ -144,19 +203,19 @@ p {
 .column_group1 {
     display: flex;
     justify-content: right;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10.0rem;
+    margin-right: 10.0rem;
 
     > p {
-        width: 300px;
-        margin-right: 10px;
-        margin-left: 10px;
-        font-size: 20px;
+        width: 30.0rem;
+        margin-right: 1.0rem;
+        margin-left: 1.0rem;
+        font-size: 2.0rem;
         font-weight: 600;
 
         >span {
             display: block;
-            font-size: 15px;
+            font-size: 1.5rem;
             font-weight: 300;
         }
     }
@@ -169,19 +228,19 @@ p {
 .column_group3 {
     display: flex;
     justify-content: left;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10.0rem;
+    margin-right: 10.0rem;
 
     > p {
-        width: 320px;
-        margin-right: 10px;
-        margin-left: 10px;
-        font-size: 20px;
+        width: 32.0rem;
+        margin-right: 1.0rem;
+        margin-left: 1.0rem;
+        font-size: 2.0rem;
         font-weight: 600;
 
         >span {
             display: block;
-            font-size: 15px;
+            font-size: 1.5rem;
             font-weight: 300;
         }
     }
@@ -257,12 +316,12 @@ p {
     color: white;
     text-align: center;
     padding-top: 10.0rem;
-    padding-bottom: 5.0rem;
+    padding-bottom: 4.0rem;
     @media (max-width: 768px) {
         text-align: center;
 
         div {
-            margin: 20px;
+            margin: 2.0rem;
         }
     }
 
@@ -284,19 +343,4 @@ p {
             margin-left: .5rem;
         }
     }  
-}
-@media(max-width:998px){
-    html{
-        font-size: 55%;
-    }
-}
-@media(max-width:768px){
-    html{
-        font-size: 45%;
-    }
-}
-@media(max-width:350px){
-    html{
-        font-size: 10%;
-    }
 }
